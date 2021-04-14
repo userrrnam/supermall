@@ -143,7 +143,7 @@ export default {
     itemClick(index) {
       this.currentType = index;
       this.$refs.scroll.scrollTo(0, -this.itemTop[index], 1000);
-     hh 
+      console.log(index);
     },
   },
 };
