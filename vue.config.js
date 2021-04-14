@@ -1,0 +1,17 @@
+module.export={
+  configureWebpack:{
+    resolve:{
+      alias:{
+        'assets':'@/assets',
+        'common':'@/common',
+        'components':'@/components', 
+        'network':'@/network', 
+        'views':'@/views'
+      }
+    },
+    devServe:{
+      host:'0.0.0.0',
+      prot:8080,
+    }
+  }
+}
